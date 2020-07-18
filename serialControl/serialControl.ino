@@ -7,18 +7,18 @@
 
 Adafruit_MAX31855 thermocouple(MAXCLK, MAXCS, MAXDO);
 
-int relay = 8;
+int relay = 12;
 
 double curr_temp = 0;
 double prev_temp = 0;
-double ref_temp = 100;
+double ref_temp = 400;
 
 double P, I, D;
 double Kp = 1;
 double Ki = 0;
-double Kd = 10;
+double Kd = 200;
 
-double alpha = 0.6;
+double alpha = 0.9;
 
 double error = 0;
 double prev_error = 0;
