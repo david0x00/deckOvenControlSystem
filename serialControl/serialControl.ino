@@ -18,7 +18,7 @@ double Kp = 1;
 double Ki = 0;
 double Kd = 10;
 
-double alpha = 0.1;
+double alpha = 0.6;
 
 double error = 0;
 double prev_error = 0;
